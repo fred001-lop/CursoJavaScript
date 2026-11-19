@@ -1,0 +1,64 @@
+
+
+//1. Escribe un comentario en una linea
+//Este es un comentario
+
+//2. Escribe un comentario en varias lineas
+/*
+ESTE ES
+UN COMENTARIO
+EN
+VARIAS 
+LINEAS
+*/ 
+
+//3. Declara variables con valores asociados a todos los datos de tipo primitivos
+
+let cadena = 'Nombre'
+let numero = 123
+let booleano = true
+let indefinido = undefined
+let enteroGrande = BigInt(213234123213123)
+let nulo = null
+let id = Symbol("ID")
+
+//4. Imprime por consola el valor de todas las variables
+console.log(cadena)
+console.log(numero  )
+console.log(booleano)
+console.log(indefinido)
+console.log(enteroGrande)
+console.log(nulo)
+console.log(id)
+
+
+//5.
+
+console.log(typeof cadena)
+console.log(typeof numero)
+console.log(typeof booleano)
+console.log(typeof undefined)
+console.log(typeof enteroGrande)
+console.log(typeof nulo)
+console.log(typeof id)
+
+//6. Modificar los valores de las variables por otros del mismo tipo
+cadena = "Fredy Lopez"
+console.log(cadena)
+
+
+//7 Modifica los valores de las variables pero por un tipo diferente de valor
+numero = "PRueba"
+console.log(numero)
+
+
+//8 Declara constantes con valores asociados a todos los tipos de datos primitivos
+const cadena2 = "String"
+const numeroPr = 123
+
+//9 modifica los valores de las constantes
+
+//const cadena2 = 123
+//const numeroPr = "Cadena"
+
+//10 comenta las lineas que produzcan errores
